@@ -3,7 +3,9 @@ from backend.auth.controller import router as auth_router
 from backend.firm.controller import router as firm_router
 from backend.category.controller import router as category_router
 
-app = FastAPI(title="B2B Backend API", version="0.1.0")
+
+app = FastAPI(title="B2B Backend API", version="0.1.0",openapi_url="/openapi.json", docs_url=None, root_path="/api")
+
 
 app.include_router(auth_router)
 app.include_router(firm_router)
