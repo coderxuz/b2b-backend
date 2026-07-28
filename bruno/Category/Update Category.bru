@@ -1,0 +1,21 @@
+meta {
+  name: Update Category
+  type: http
+  seq: 3
+}
+
+patch {
+  url: {{base_url}}/admin/categories/1
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+body:json {
+  {
+    "name": "Juices & Soft Drinks"
+  }
+}

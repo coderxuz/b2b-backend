@@ -1,0 +1,15 @@
+meta {
+  name: Get My Firm
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{base_url}}/firm/me
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}

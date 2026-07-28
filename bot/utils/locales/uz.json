@@ -1,0 +1,13 @@
+{
+  "welcome": "👋 B2B botiga xush kelibsiz!\n\nPastdagi <b>🔑 Kod olish</b> tugmasini bosing yoki tilni o'zgartirish uchun <b>🌐 Til</b> tugmasini tanlang.",
+  "get_code": "🔑 Kod olish",
+  "change_lang": "🌐 Til",
+  "share_phone_prompt": "📱 Telefon raqamingizni yuboring yoki pastdagi <b>📱 Telefon raqamni ulashish</b> tugmasini bosing:",
+  "share_phone": "📱 Telefon raqamni ulashish",
+  "back": "⬅️ Orqaga",
+  "select_lang": "Iltimos, tilni tanlang:",
+  "lang_changed": "Til O'zbek tiliga o'zgartirildi.",
+  "otp_generated": "✅ <b>OTP Kod Yaratildi!</b>\n\n📱 Telefon: <code>{phone}</code>\n🔑 Kod: <code>{otp}</code>\n\n⏳ Kod 3 daqiqa (180s) davomida amal qiladi. Ushbu koddan ro'yxatdan o'tish yoki kirish uchun foydalaning.",
+  "invalid_phone": "⚠️ Telefon raqami formati noto'g'ri. Iltimos qaytadan kiriting (+998901234567).",
+  "main_menu": "Asosiy menyu:"
+}

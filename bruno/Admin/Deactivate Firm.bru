@@ -1,0 +1,21 @@
+meta {
+  name: Deactivate Firm
+  type: http
+  seq: 1
+}
+
+patch {
+  url: {{base_url}}/firm/1/status
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+body:json {
+  {
+    "is_active": false
+  }
+}

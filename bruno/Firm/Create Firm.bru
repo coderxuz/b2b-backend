@@ -1,0 +1,28 @@
+meta {
+  name: Create Firm
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{base_url}}/firm
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{access_token}}
+}
+
+body:json {
+  {
+    "name": "Best Wholesale LLC",
+    "inn": "123456789",
+    "mfo": "00123",
+    "address": "Tashkent, Chilanzar 5",
+    "location": "41.311081, 69.240562",
+    "firm_category": "Drink Wholesale",
+    "description": "Leading distributor of soft drinks",
+    "additional_phones": ["+998901234568"]
+  }
+}

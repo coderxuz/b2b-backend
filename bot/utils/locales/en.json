@@ -1,0 +1,13 @@
+{
+  "welcome": "👋 Welcome to B2B Bot!\n\nClick <b>🔑 Get Code</b> below or select <b>🌐 Language</b> to change language.",
+  "get_code": "🔑 Get Code",
+  "change_lang": "🌐 Language",
+  "share_phone_prompt": "📱 Please send your phone number or tap <b>📱 Share Phone Number</b> below:",
+  "share_phone": "📱 Share Phone Number",
+  "back": "⬅️ Back",
+  "select_lang": "Please select your language:",
+  "lang_changed": "Language changed to English.",
+  "otp_generated": "✅ <b>OTP Code Generated!</b>\n\n📱 Phone: <code>{phone}</code>\n🔑 Code: <code>{otp}</code>\n\n⏳ Valid for 3 minutes (180s). Use this code to register or login.",
+  "invalid_phone": "⚠️ Invalid phone number format. Please try again (+998901234567).",
+  "main_menu": "Main Menu:"
+}
